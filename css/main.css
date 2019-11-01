@@ -1,0 +1,17 @@
+#left { 
+    float:left;  
+    padding-right: 10px;
+    height:280px; 
+} 
+
+#middle{ 
+    float:left;  
+    padding-right: 10px;
+    height:280px; 
+} 
+
+#right{ 
+    float:left; 
+    padding-right: 10px;
+    height:280px; 
+} 
