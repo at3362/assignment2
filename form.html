@@ -1,0 +1,37 @@
+<!--
+===============================================
+Student Name: 	
+Solution for Question 1 of Assignment 4
+===============================================
+-->
+
+<html>
+	<head><title>Student Record Management</title>
+		<script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<link rel = "stylesheet" type="text/css" href="css/main.css" media="all" />
+		<script type = "text/javascript" src="js/main.js"></script>
+	</head>
+	
+	<body>
+		<h3> Student Record Management </h3>
+		<form name = "myform">
+				<div id = "left">
+					Full Name <br>
+					<input type="text" id="fullName" name="fullName"/> 
+				</div>
+				<div id = "middle">
+					Major <br>
+					<input type="text" id="major" name="major" /> 
+				</div id = "right">
+					Start Year <br>
+					<input type="text" id="startYear" name="startYear" maxlength="4"/>
+				</div>
+			<input type="button" id=addRec value="Add Record">
+		</form>
+	
+		<h3>Entered Records </h3>
+		<div id="records"></div>
+
+	</body>
+
+</html>
